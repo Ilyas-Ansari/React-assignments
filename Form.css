@@ -1,0 +1,46 @@
+.form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.form h1 {
+  text-align: center;
+}
+
+.form input,
+.form select {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.gender-group {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.terms-label {
+  display: block;
+  margin: 10px 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: teal;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: darkcyan;
+}
